@@ -4,7 +4,7 @@
     font-family: 'Lato', sans-serif;
 }
 .header{
-    background-image:linear-gradient(rgba(103, 100, 54, 0.7),rgba(4, 9, 30, 0.592)),url(../aeproject/img/AdobeStock_436767512.webp);
+    background-image:linear-gradient(rgba(103, 100, 54, 0.7),rgba(4, 9, 30, 0.592)),url(./img/AdobeStock_436767512.webp);
     background-position: center;
     background-size: cover;
     height: 50vh;
