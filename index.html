@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR TEAM</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav> 
+            <a href="ae.html"><img src="../aeproject/img/ssnaal-high-resolution-logo-white-transparent.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ae.html">HOME</a></li>
+                    <li><a href="advantages.html">ADVANTAGES</a></li>
+                    <li><a href="problems.html">PROBLEMS</a></li>
+                    <li><a href="index.html">STUDENTS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="team-box">
+            <h1>Our team</h1>
+            <p>Here are details about us and our work</p>
+        </div>
+    </section>
+    
+    <section class="team">
+        <div class="our-team">
+            <div class="guys">
+                <img src="../aeproject/img/photo_2023-11-19_23-35-28.jpg" >
+                <div>
+                    <h3>
+                        A Group Leader/ Developer
+                    </h3>
+                    <p>Made a Website and distributed work
+                    </p>
+                </div>
+            </div>
+
+            <div class="guys right">
+                <div>
+                    <h3>
+                        Tester
+                    </h3>
+                    <p>Responsible for testing the website, identifying bugs or issues,<br> and providing feedback for improvements.<br>Made a PowerPoint presentation
+                    </p>
+                </div>
+                <img src="../aeproject/img/photo_2023-11-08_21-12-21.jpg" >
+                
+            </div>
+
+            <div class="guys">
+                <img src="../aeproject/img/photo_2023-11-08_21-12-34.jpg" >
+                <div>
+                    <h3>
+                        Resercher
+                    </h3>
+                    <p>Responsible for conducting research on the impact of IT, collecting data,<br> and analyzing findings.
+                    </p>
+                </div>
+            </div>
+
+            <div class="guys right">  
+                <div>
+                    <h3>
+                        Developer
+                    </h3>
+                    <p>Responsible for designing the user interface of the website.
+                    </p>
+                </div>
+                <img src="../aeproject/img/photo_2023-11-19_23-39-06.jpg" >
+            </div>
+
+            <div class="guys">
+                <img src="../aeproject/img/photo_2023-11-08_21-12-35.jpg" >
+                <div>
+                    <h3>
+                        Designer
+                    </h3>
+                    <p>Responsible for designing the user visual elements of the website.
+                    </p>
+                </div>
+            </div>
+            <div class="guys right">  
+                <div>
+                    <h3>
+                        Project Manager
+                    </h3>
+                    <p>Responsible for overseeing the overall project, coordinating tasks,<br> and ensuring timely progress.
+                    </p>
+                </div>
+                <img src="../aeproject/img/photo_2023-11-19_23-13-40.jpg" >
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            We are a team of 6 people who have tried to make an IT project. Understand the problems<br> and impact of technology on people .
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>
+            Made with <i class="fa-solid fa-heart"></i> by Din Alina
+        </p>
+
+    </section>   
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
