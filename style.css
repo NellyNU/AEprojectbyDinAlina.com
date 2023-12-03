@@ -6,7 +6,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(4, 9, 30, 0.7),rgb(4, 9, 30, 0.7)),url(../aeproject/img/dreamstime_s_74311588.jpg);
+    background-image: linear-gradient(rgb(4, 9, 30, 0.7),rgb(4, 9, 30, 0.7)),url(./img/dreamstime_s_74311588.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
