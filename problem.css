@@ -90,7 +90,7 @@ nav .fa-solid {
     margin-bottom: 320px;
 }
 .backgroundimage {
-    background: #000000 url(../aeproject/img/hands-820272_1280.jpg); 
+    background: #000000 url(./img/hands-820272_1280.jpg); 
     height: 100vh;
     width: 150vh;
     background-size: cover;
