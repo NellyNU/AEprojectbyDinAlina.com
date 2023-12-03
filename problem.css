@@ -4,7 +4,7 @@
     font-family: 'Lato', sans-serif;
 }
 .header{
-    background-image:linear-gradient(rgba(24, 57, 82, 0.7),rgba(4, 9, 30, 0.636)),url(../aeproject/img/MyIC_Article_92370.jpg);
+    background-image:linear-gradient(rgba(24, 57, 82, 0.7),rgba(4, 9, 30, 0.636)),url(./img/MyIC_Article_92370.jpg);
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -179,7 +179,7 @@ nav .fa-solid {
       padding: 30px;
     }
     .backgroundimage {
-        background: #000000 url(../aeproject/img/student-849822_1280.jpg); 
+        background: #000000 url(./img/student-849822_1280.jpg); 
         background-size: cover;
         float: right;
         background-attachment: fixed;
