@@ -157,7 +157,7 @@ nav  .fa-solid{
   .footer p{
     color: #FFF;
   }
-  @media (max-width:700px)
+  @media (max-width:750px)
 {
   .text-box h1{
     font-size: 20px
